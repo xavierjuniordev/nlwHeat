@@ -74,26 +74,6 @@ regras de uma linguagem
       </div>
     </main>
 
-    <script>
-      const LinksSocialMedia = {
-        github: 'xavierjuniordev',
-        youtube: 'rocketseat',
-        facebook: 'rocketseat',
-        instagram: 'junior.xavier23',
-        twitter: 'juniorx_95'
-      }
-
-      function chanceSocialMediaLinks() {
-        for (let li of socialLinks.children) {
-          const social = li.getAttribute('class')
-
-          li.children[0].href = `https://${social}.com/${LinksSocialMedia[social]}`
-
-          alert(li.children[0].href)
-        }
-      }
-
-      chanceSocialMediaLinks()
-    </script>
+    <script src="main.js"></script>
   </body>
 </html>
