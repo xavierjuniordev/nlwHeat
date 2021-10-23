@@ -1,7 +1,7 @@
 const LinksSocialMedia = {
   github: 'xavierjuniordev',
-  youtube: 'rocketseat',
-  facebook: 'rocketseat',
+  youtube: 'catolicaquixada',
+  facebook: 'juniorxavierdev',
   instagram: 'junior.xavier23',
   twitter: 'juniorx_95'
 }
